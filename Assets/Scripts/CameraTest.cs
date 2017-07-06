@@ -13,6 +13,6 @@ public class CameraTest : MonoBehaviour {
 	void Update ()
     {
         Vector3 pos = transform.position;
-        //transform.position = new Vector3(pos.x + .01f, pos.y, pos.z);
+        transform.position = new Vector3(pos.x + .01f, pos.y, pos.z);
 	}
 }

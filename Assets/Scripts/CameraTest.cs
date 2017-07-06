@@ -14,6 +14,7 @@ public class CameraTest : MonoBehaviour {
     {
         Vector3 pos = transform.position;
         Vector3 pos2 = transform.position;
+        Vector3 pos3 = transform.position;
         transform.position = new Vector3(pos.x + .01f, pos.y, pos.z);
 	}
 }

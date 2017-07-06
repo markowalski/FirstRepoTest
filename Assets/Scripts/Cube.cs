@@ -14,6 +14,6 @@ public class Cube : MonoBehaviour {
 	void Update ()
     {
         Vector3 pos = transform.position;
-        transform.position = new Vector3(pos.x + Random.value * .1f, pos.y + Random.value * .1f, pos.z);
+        transform.position = new Vector3(pos.x + Random.value * .05f, pos.y + Random.value * .05f, pos.z);
     }
 }
